@@ -12,4 +12,4 @@ docker create \
   -v /etc/ssmtp:/etc/ssmtp \
   kmlucy/docker-deluge
 ```
-Uses linuxserver/deluge
+Based on [linuxserver/deluge](https://github.com/linuxserver/docker-deluge)
