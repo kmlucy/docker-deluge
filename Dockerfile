@@ -1,3 +1,3 @@
-FROM linuxserver/deluge
+FROM binhex/arch-delugevpn
 
-RUN apk update && apk add ssmtp mailx
+RUN pacman -S --noconfirm ssmtp mailutils python2
