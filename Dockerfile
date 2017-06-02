@@ -1,3 +1,3 @@
 FROM binhex/arch-delugevpn
 
-RUN pacman -S --noconfirm ssmtp mailutils python2
+RUN pacman -S --noconfirm ssmtp mailx python2
